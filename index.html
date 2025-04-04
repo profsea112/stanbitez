@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+  </head>
+  <body class="bg-[#12372a] text-[#fbfada]">
+    <header>
+      <nav class="flex justify-between items-center w-[92%] py-1 mx-auto">
+        <div>
+          <a href="index.html"><h1 class="text-3xl">StanBitez</h1></a>
+        </div>
+        <div
+          class="md:static md-h-fit absolute bg-[#12372a] left-0 top-[-100%] w-full md:w-auto flex items-center px-5"
+        >
+          <ul
+            class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8"
+          >
+            <li><a class="hover:text-gray-500" href="index.html">Home</a></li>
+            <li><a class="hover:text-gray-500" href="#about">About</a></li>
+            <li><a class="hover:text-gray-500" href="#menu">Menu</a></li>
+            <li><a class="hover:text-gray-500" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <a href="#menu"
+            ><button
+              class="bg-[#0f0f0f] text-[#fbfada] px-5 py-2 rounded-full hover:bg-gray-500"
+            >
+              Order Now
+            </button></a
+          >
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section
+        class="flex flex-col justify-between md:flex md:flex-row md:justify-between pt-15"
+      >
+        <div class="md:w-[35rem] pt-35 md:pr-5">
+          <img src="Group 1.png" alt="" />
+          <div
+            class="flex justify-center flex-wrap pt-7 md:pl-3 gap-3 w-[10rem] md:w-[35rem]"
+          >
+            <img src="Frame 5.png" alt="" />
+            <img src="Frame 6.png" alt="" />
+            <img src="Frame 7.png" alt="" />
+            <img src="Frame 8.png" alt="" />
+          </div>
+        </div>
+        <div class="w-[40rem] pl-5">
+          <a href="#menu"><img src="burger.png" alt="" /></a>
+        </div>
+      </section>
+
+      <section class="flex flex-col items-center pt-15">
+        <h1 class="text-3xl" id="about">About</h1>
+        <p class="text-center md:pl-10 md:pr-10 md:pt-5 md:w-[60rem]">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+          accusantium numquam facere ducimus impedit quisquam minus, officiis
+          illo quos voluptatem excepturi totam cupiditate officia praesentium
+          mollitia cum voluptatibus voluptatum tempore? Lorem ipsum dolor sit
+          amet consectetur adipisicing elit. Animi error eveniet quod officia
+          sequi neque modi, illum amet velit molestiae id molestias consequatur
+          nulla, non perferendis adipisci aut quam optio! Lorem ipsum dolor sit
+          amet consectetur adipisicing elit. Libero nemo commodi, unde
+          cupiditate voluptates voluptatum molestiae incidunt atque asperiores
+          perspiciatis veritatis debitis possimus? Rem consequatur dolore,
+          dolorem cum architecto distinctio. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Doloremque soluta facilis sint
+          necessitatibus fugit illo eligendi ut cumque facere nulla iure
+          doloribus quisquam accusantium, velit molestiae qui inventore quae
+          voluptatibus.
+        </p>
+        <iframe
+          class="pt-8"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/Y7mQK1IejlY?si=meFcv1CBL80eSHJa"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </section>
+
+      <section class="flex flex-col items-center pt-20">
+        <h1 class="text-3xl" id="menu">Menu</h1>
+        <div class="grid grid-cols-2 md:grid md:grid-cols-4 gap-5 pt-15">
+          <div>
+            <img src="Frame 9.png" alt="" />
+          </div>
+          <div>
+            <img src="Frame 10.png" alt="" />
+          </div>
+          <div>
+            <img src="Frame 11.png" alt="" />
+          </div>
+          <div>
+            <img src="Frame 12.png" alt="" />
+          </div>
+          <div>
+            <img src="Frame 13.png" alt="" />
+          </div>
+          <div>
+            <img src="Frame 14.png" alt="" />
+          </div>
+          <div>
+            <img src="Frame 15.png" alt="" />
+          </div>
+          <div>
+            <img src="Frame 16.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="flex flex-col items-center pt-20">
+        <h1 class="text-3xl pb-8" id="contact">Contact Us</h1>
+        <form
+          class="flex flex-col w-[25rem] bg-[#12372a] text-[#fbfada] md:w-[60rem]"
+        >
+          <label for="fname">First name:</label>
+          <input
+            type="text"
+            name="firstname"
+            class="bg-[#fbfada] text-[#12372a]"
+          />
+          <label for="lname">Last name:</label>
+          <input
+            type="text"
+            name="lastname"
+            class="bg-[#fbfada] text-[#12372a]"
+          />
+          <label for="num">Phone Number:</label>
+          <input
+            type="number"
+            name="Phonenumber"
+            class="bg-[#fbfada] text-[#12372a]"
+          />
+          <label for="email">Email:</label>
+          <input type="text" name="email" class="bg-[#fbfada] text-[#12372a]" />
+          <input
+            type="submit"
+            value="Submit"
+            style="
+              width: 8rem;
+              height: 2rem;
+              border-radius: 5px;
+              background-color: blueviolet;
+              margin-top: 10px;
+            "
+          />
+        </form>
+      </section>
+    </main>
+    <a href="index.html" class="flex justify-center pt-15 pb-8">Back to Top</a>
+    <footer class="flex justify-center bg-[#fbfada] text-[#12372a] pt-5 pb-5">
+      Created by StanDev &copy2025
+    </footer>
+  </body>
+</html>
